@@ -46,12 +46,26 @@
                                     <action selector="saveToNewThumb:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1eY-Zk-qyh"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PoO-OP-7jA">
+                                <rect key="frame" x="20" y="432" width="335" height="44"/>
+                                <color key="backgroundColor" red="0.073947833180000005" green="1" blue="0.85390425049999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="L9K-4u-0F9"/>
+                                </constraints>
+                                <state key="normal" title="保存图片(封装的工具类)"/>
+                                <connections>
+                                    <action selector="shareInstanceSaveToNewThumb:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eNu-Yr-4Ye"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="PoO-OP-7jA" firstAttribute="trailing" secondItem="LCo-BD-DPK" secondAttribute="trailing" id="3x8-cb-R3s"/>
+                            <constraint firstItem="PoO-OP-7jA" firstAttribute="leading" secondItem="LCo-BD-DPK" secondAttribute="leading" id="F8P-xV-BaY"/>
                             <constraint firstItem="LCo-BD-DPK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Lm8-9t-Mho"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="px3-QL-O87" secondAttribute="trailing" constant="20" id="MEu-RA-tCD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AmB-5b-hdy" secondAttribute="trailing" constant="20" id="NkH-Wy-ZQe"/>
+                            <constraint firstItem="PoO-OP-7jA" firstAttribute="top" secondItem="LCo-BD-DPK" secondAttribute="bottom" constant="20" id="Pue-Qb-6Fq"/>
                             <constraint firstItem="px3-QL-O87" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="bFx-xa-Ym9"/>
                             <constraint firstItem="px3-QL-O87" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="kPc-GO-vBJ"/>
                             <constraint firstItem="LCo-BD-DPK" firstAttribute="top" secondItem="AmB-5b-hdy" secondAttribute="bottom" constant="20" id="oMy-mp-Ltg"/>
