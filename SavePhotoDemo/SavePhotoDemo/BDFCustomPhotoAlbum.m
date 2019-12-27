@@ -112,7 +112,7 @@ static BDFCustomPhotoAlbum *_shareInstance;
         [self showAlertMessage:@"保存图片失败"];
     } else {
         // NSLog(@"保存图片成功");
-        [self showAlertMessage:@"创建相册失败"];
+        [self showAlertMessage:@"保存图片成功"];
     }
 }
 
